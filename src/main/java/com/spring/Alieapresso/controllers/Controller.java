@@ -4,16 +4,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-    @GetMapping("/")
+    @GetMapping("/page1.html")
     public String tovari(){
-        return "lalala";
+        return "page1";
     }
-    @GetMapping("/1")
+    @GetMapping("/page2.html")
     public String tovari1(){
-        return "lalala1";
+        return "page2";
     }
-    @GetMapping("/2")
-    public String tovari2(){
-        return "lalala2";
+    @GetMapping("/")
+    public String home(){
+        return "home";
     }
+
 }
