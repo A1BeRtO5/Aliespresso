@@ -16,5 +16,13 @@ public class Controller {
     public String home(){
         return "home";
     }
+    @GetMapping("/index.html")
+    public String index(){
+        return "index.html";
+    }
+    @GetMapping("/5")
+    public String lalala(){
+        return "test";
+    }
 
 }
