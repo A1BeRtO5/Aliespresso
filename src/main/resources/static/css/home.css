@@ -1,0 +1,5 @@
+body{
+    background-color: rgb(170, 126, 211);
+    background-image: url('../../templates/images/p1.jpg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Зображення покриває весь фон */
+} 

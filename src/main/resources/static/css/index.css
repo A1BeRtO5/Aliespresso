@@ -1,0 +1,59 @@
+h1{
+    color: rgb(236, 3, 186);
+    font-size: 66px;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+    margin-left: 10px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(0, 96, 185);
+    padding: 30px;
+}
+
+a{
+    font-size: 15px;
+    color: rgb(236, 3, 186);
+}
+
+
+img{
+    width: 100px;
+    
+}
+/* Контейнер flex */
+.cont {
+    display:contents;
+    flex-direction: row; /* Розташування елементів в ряд (по горизонталі) */
+    justify-content: space-around; /* Простір між елементами */
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+    height: 100px; /* Висота контейнера */
+}
+
+/* Елементи flex */
+.item1 {
+    background-color: #94be84;
+    padding: 30px;
+    border: 1px solid #0f0758;
+    margin-bottom: 2px;
+}
+.item2 {
+    background-color: #684949;
+    padding: 30px;
+    border: 1px solid #63044e;
+    margin-bottom: 3px;
+
+}
+.item3 {
+    background-color: #ca1b1b;
+    padding: 30px;
+    border: 1px solid #3500f3;
+}
+body{
+    background-color: rgb(170, 126, 211);
+    background-image: url('../../templates/images/p1.jpg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Зображення покриває весь фон */
+    
+}

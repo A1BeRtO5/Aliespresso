@@ -1,0 +1,9 @@
+body{
+     background-image: url('../../templates/images/p7.jpg'); /* Шлях до вашого зображення */
+    background-size: cover; /* Зображення покриває весь фон */
+    background-repeat :no-repeat;
+    background-color: #36821c;
+}
+h1{
+    color: #afaba8;
+}
