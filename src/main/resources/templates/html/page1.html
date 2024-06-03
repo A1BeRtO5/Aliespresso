@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spring Boot Example</title>
-    <link rel="stylesheet" href="/css/page1.css">
-
+    <title>Page 2</title>
+    <link rel="stylesheet" type="text/css" th:href="@{css/page1.css}">
 
 </head>
 <body>
-<h1>Hello, World!</h1>
+<h1>Welcome to Page 1</h1>
+<button onclick="location.href='/page2.html'">Page2 button</button>
+<button onclick="location.href='/'">Go to home Page</button>
 </body>
 </html>

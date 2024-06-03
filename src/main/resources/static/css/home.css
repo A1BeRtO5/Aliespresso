@@ -1,5 +1,22 @@
-body{
-    background-color: rgb(170, 126, 211);
-    background-image: url('../../templates/images/p1.jpg'); /* Шлях до вашого зображення */
-    background-size: cover; /* Зображення покриває весь фон */
-} 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+    background-image: url('/images/t2.jpg'); /* Додаємо фон для всього тіла сторінки */
+    background-size: cover; /* Робимо фон, що покриває всю сторінку */
+    background-position: center; /* Центруємо фон */
+}
+
+.ss1 {
+    color: #fdf1d9;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.ss2 {
+    color: #8c5e37;
+    font-family: "Comic Sans MS", sans-serif;
+    text-shadow: 5px 2px 3px #000000;
+}
+button {
+    background-color: aqua;
+}

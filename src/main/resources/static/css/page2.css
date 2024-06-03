@@ -1,9 +1,13 @@
-body{
-     background-image: url('../../templates/images/p7.jpg'); /* Шлях до вашого зображення */
-    background-size: cover; /* Зображення покриває весь фон */
-    background-repeat :no-repeat;
-    background-color: #36821c;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+    background-image: url('/images/t3.jpg'); /* Додаємо фон для всього тіла сторінки */
+    background-size: cover; /* Робимо фон, що покриває всю сторінку */
+    background-position: center; /* Центруємо фон */
 }
-h1{
-    color: #afaba8;
+
+h1 {
+    color: #333;
 }

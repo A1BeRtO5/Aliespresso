@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 2</title>
-    <link rel="stylesheet" href="../../static/css/styles.css">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/page2.css}">
+
 </head>
 <body>
 <h1>Welcome to Page 2</h1>
-<button onclick="location.href='/'">Go to Index Page</button>
+<button onclick="location.href='/page1.html'">Page1 button</button>
+<button onclick="location.href='/index.html'">Go to Index Page</button>
 </body>
 </html>
