@@ -4,29 +4,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-    @GetMapping("/page1.html")
-    public String tovari(){
-        return "/html/page1";
-    }
-    @GetMapping("/page2.html")
-    public String tovari1(){
-        return "/html/page2";
-    }
     @GetMapping("/")
-    public String home(){
+    public String homePage(){
         return "/html/home";
     }
-    @GetMapping("/index.html")
-    public String index(){
-        return "/html/index.html";
+    @GetMapping("/aboutUs")
+    public String aboutUsPage(){
+        return "/html/aboutUs";
     }
-    @GetMapping("/5")
-    public String lalala(){
-        return "/html/test.html";
+    @GetMapping("/shop")
+    public String shopPage(){
+        return "/html/shop";
     }
-    @GetMapping("/file.html")
-    public String lalalads(){
-        return "/html/file.html";
+    @GetMapping("/contacts")
+    public String contactsPage(){
+        return "/html/contacts";
+    }
+    @GetMapping("/basket")
+    public String basketPage(){
+        return "/html/basket";
     }
 
 }
