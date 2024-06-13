@@ -1,67 +1,62 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
-    <title>Ми супер молода команда про продажу кави</title>
-    <link rel="stylesheet" type="text/css" th:href="@{css/aboutUs.css}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Aliespresso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-<!-- Шапка -->
 <body>
 <header>
-    <div class="logo">
-        <a href="#">Мій Магазин</a>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="/">Головна</a></li>
-            <li><a href="/aboutUs">Про нас</a></li>
-            <li><a href="#">Магазин</a></li>
-            <li><a href="#">Контакти</a></li>
-            <li><a href="#">Кошик</a></li>
-        </ul>
-    </nav>
+    <h1>Ласкаво просимо до магазину Aliespresso</h1>
 </header>
+<div class="container">
+    <p>Ласкаво запрошуємо до Aliespresso – вашого вірного провідника у світі вишуканої кави та кавового обладнання! У нашому магазині ви знайдете все необхідне для створення ідеального кавового еспресо та неперевершеного настрою.
 
-<main>
-    <section class="banner">
-        <h1>Ласкаво просимо до нашого магазину!</h1>
-        <p>Знайдіть найкращі пропозиції тут</p>
-        <a href="#" class="button">Почати покупки</a>
-    </section>
+        Збалансований асортимент кавових зерен з усього світу дозволить вам обрати саме той смак, який вас вразить. Від ніжних арабік до міцних робуст – ми пропонуємо лише найкращі сорти, які відповідають навіть найвибагливішим гурманам.
 
-    <section class="products">
-        <h2 class="topT">Популярні товари</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Товар 1">
-                <h3>Товар 1</h3>
-                <p>Ціна: $100</p>
-                <a href="#" class="button">Купити</a>
-            </div>
-            <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Товар 2">
-                <h3>Товар 2</h3>
-                <p>Ціна: $200</p>
-                <a href="#" class="button">Купити</a>
-            </div>
-            <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Товар 3">
-                <h3>Товар 3</h3>
-                <p>Ціна: $300</p>
-                <a href="#" class="button">Купити</a>
-            </div>
-            <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Товар 4">
-                <h3>Товар 4</h3>
-                <p>Ціна: $400</p>
-                <a href="#" class="button">Купити</a>
-            </div>
-        </div>
-    </section>
-</main>
+        У нашому магазині ви також знайдете широкий вибір кавових машин та аксесуарів, які допоможуть вам створити справжнє шедевральне еспресо просто вдома. Від компактних кавових автоматів до стильних капсульних систем – ми пропонуємо тільки найсучасніше обладнання від провідних виробників.
 
+        Обирайте "AromaBlend" – де якість і надійність зустрічаються зі смаком та елегантністю.</p>
+    <p>Зверніться до нас сьогодні та отримайте можливість насолоджуватися кращою кавою кожен день!</p>
+</div>
 <footer>
-    <p>&copy; 2024 Мій Магазин. Всі права захищені.</p>
+    <p>&copy; 2024 Магазин Aliespresso. Усі права захищені.</p>
 </footer>
 </body>
 </html>

@@ -1,0 +1,92 @@
+a{
+    color: #049110;
+    font-size: 30px;
+}
+body {
+    background-color: rgba(46, 44, 42, 0.9);
+    background-image: url(t3.jpg);
+    background-size: cover; /* Робимо фон, що покриває всю сторінку */
+    background-position: center;
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+.la2{
+    color: rgb(250, 183, 106);
+    background-color: #382200;
+    border: 2px solid #b66e01;
+}
+
+
+.link {
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    opacity: 0.7;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.32s transform;
+    text-decoration: none;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.la11 {
+    margin: 4px;
+    color: rgb(250, 183, 106);
+    background-color: #382200;
+    border: 2px solid #b66e01;
+    margin-left: 62%;
+    opacity: 0.6;
+}
+.la22 {
+    color: rgb(250, 183, 106);
+    background-color: #382200;
+    border: 2px solid #b66e01;
+    margin-left: 62%;
+    opacity: 0.6;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff1b0e0;
+    padding: 5px;
+    width: 100%;
+    font-size: 140%;
+    opacity: 0.9;
+}
+
+.header-left {
+    margin-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.la11:hover {
+    transform: rotate(-2deg)scale(1.1);
+}
+.la22:hover {
+    transform: rotate(2deg)scale(1.1);
+}
+.cont {
+    font-size: 50px;
+    margin: 10px;
+    opacity: 0.55;
+    padding: 5px;
+    border-radius: 50px ;
+    text-align: center;
+    width: 37%;
+    font-weight: 600;
+    transition: 0.6s transform;
+    margin-left: 60%;
+}

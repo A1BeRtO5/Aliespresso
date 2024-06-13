@@ -1,2 +1,5 @@
 стрим
-хибернейт
+Hibernate
+J2EE, Servlets, JSP, JDBC, JPA, Regexp;
+Mongo DB
+API 
