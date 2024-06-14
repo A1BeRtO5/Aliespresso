@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .hdr {
     font-size: 20px;
     margin: 0 10px;
@@ -59,22 +58,10 @@ footer {
     opacity: 0.9;
     margin-bottom: 0px;
 }
-.cont {
-    padding: 5px;
-    border-radius: 50px;
-    color: rgb(250, 183, 106);
-    width: 30%;
-    opacity: 0.6;
-    text-align: center;
-    background-color: #382200;
-    border: 2px solid #b66e01;
-    font-size: 190%;
-    margin-left: 65%;
-    display: block; /* Додаємо блоковий вигляд для посилань */
-    margin-bottom: 3px; /* Встановлюємо відстань між посиланнями */
-    transition: 0.32s transform;
-}
-.cont:hover {
-    transform: scale(1.2);
-    opacity: 0.8;
+#text{
+    font-size: 200%;
+    color: #fff1b0e0;
+    margin-right: 20%;
+    margin-left: 20%;
+
 }
