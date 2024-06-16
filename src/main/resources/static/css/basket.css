@@ -19,6 +19,7 @@ header {
     align-items: center;
     margin-right: 20px;
 }
+
 .hdr {
     font-size: 20px;
     margin: 0 10px;
@@ -37,6 +38,7 @@ header {
     transform: scale(1.1);
     opacity: 0.9;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-image: url('/images/t2.jpg'); /* Додаємо фон для всього тіла сторінки */
@@ -44,6 +46,7 @@ body {
     background-position: center; /* Центруємо фон */
     margin: 0px;
 }
+
 footer {
     background-color: #333;
     color: #fff1b0e0;
@@ -55,63 +58,32 @@ footer {
     opacity: 0.9;
     margin-bottom: 0px;
 }
-.banner {
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
 
-}
-.banner h1 {
-    font-size: 48px;
-    background-color: #38220075;
-    width: 60%;
-    border-radius: 30px;
-    text-align: center;
-    margin-left: 21%;
-}
-.banner p {
-    font-size: 30px;
-    padding: 5px;
-    width: 30%;
-    margin-left: 30%;
-    background-color: #38220075;
-    margin-left: 35.5%;
-    border-radius: 30px;
-
-}
-.banner .button {
-
-    background-color: #382200;
-    color: rgb(250, 183, 106);
-    padding: 12px 20px;
-    text-decoration: none;
-    font-size: 25px;
-    border-radius: 20px;
-    transition: background-color 0.3s;
-    opacity: 0.6;
-    border: 2px solid #b66e01;
-    transition: 1s transform;
-
-}
-.button:hover {
-    border: 4px solid #b66e01;
-    opacity: 0.8;
-    box-shadow: 0px 0px 30px #b66e01;
-}
 .products {
     text-align: center;
 }
+
 .topT {
     color: #fff;
 }
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+
+.order-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-left: 10%;
     margin-right: 10%;
-    width: 80%;
 }
+
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
 .product-card {
     background-color: #382200;
     border: 1px solid #b66e01;
@@ -120,19 +92,76 @@ footer {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    color:#fff;
+    color: #fff;
     transition: 0.4s transform;
 }
+
 .product-card p {
     color: rgb(250, 183, 106);
 }
+
+.total {
+    background-color: #382200;
+    border: 1px solid #b66e01;
+    opacity: 0.85;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: 0.4s transform;
+}
+
+.total p {
+    color: rgb(250, 183, 106);
+    margin: 10px auto;
+    width: 50%;
+}
+
 .buttonProp {
     color: rgb(250, 183, 106);
 }
-.product-card:hover {
-    transform: scale(1.2);
-    opacity: 1;
-    box-shadow: 0px 0px 30px #b66e01;
-    border: 2px solid #865100;
+
+.buttonOrder {
+    background-color: #382200;
+    border: 1px solid #b66e01;
+    color: #fff1b0e0;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.buttonOrder:hover {
+    transform: rotate(-1deg) scale(1.1);
+}
+
+input {
+    background-color: #382200;
+    border: 2px solid #b66e01;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #fff1b0e0;
+}
+input:focus {
+    transform: scale(1.1);
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    font-size: 100%;
+}
+
+p {
+    color: #b66e01;
 
 }

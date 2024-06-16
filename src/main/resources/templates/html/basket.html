@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliespresso</title>
+    <link rel="stylesheet" type="text/css" th:href="@{css/basket.css}">
+</head>
+
+<!-- Шапка -->
+<header>
+    <div class="header-left">Мій Магазин</div>
+    <div class="header-right">
+        <a href="/" class="hdr">Головна</a>
+        <a href="/shop" class="hdr">Магазин</a>
+        <a href="/basket" class="hdr">Кошик</a>
+        <a href="/contacts" class="hdr">Контакти</a>
+        <a href="/aboutUs" class="hdr">Про нас</a>
+    </div>
+</header>
+<body>
+<main>
+    <section class="products">
+        <h2 class="topT">Ваше замовлення</h2>
+        <div class="order-container">
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Товар 1">
+                    <h3>Товар 1</h3>
+                    <p>Ціна: $100</p>
+                </div>
+
+                <div class="total">
+                    <p>До сплати</p>
+                    <p id="summ">123</p>
+                </div>
+
+            </div>
+            <div class="order-form">
+                <input type="text" id="firstname" name="firstname" placeholder="Введіть ваше ім'я" required maxlength="20">
+                <input type="text" id="lastname" name="lastname" placeholder="Введіть ваше прізвище" required maxlength="20">
+                <input type="text" id="phone" name="phone" placeholder="Введіть номер телефону" required maxlength="20">
+                <input type="text" id="city" name="city" placeholder="Введіть місто доставки" required maxlength="20">
+                <input type="text" id="postal" name="postal" placeholder="Введіть поштове відділення" required maxlength="20">
+                <input type="text" id="zipcode" name="zipcode" placeholder="Введіть поштовий індекс" required maxlength="20">
+            </div>
+
+        </div>
+    </section>
+    <a href="https://www.example.com" class="buttonOrder">Оформити замовлення</a>
+
+</main>
+
+<footer>
+    <p id="footerHome">&copy; 2024 Мій Магазин. Всі права захищені. Aле це не точно.</p>
+</footer>
+</body>
+</html>

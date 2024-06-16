@@ -2,15 +2,17 @@
 <head>
     <title>Aliespresso</title>
     <link rel="stylesheet" type="text/css" th:href="@{css/home.css}">
+
 </head>
 <!-- Шапка -->
 <header>
     <div class="header-left">Мій Магазин</div>
     <div class="header-right">
         <a href="/" class="hdr">Головна</a>
-        <a href="/aboutUs" class="hdr">Про нас</a>
         <a href="/shop" class="hdr">Магазин</a>
+        <a href="/basket" class="hdr">Кошик</a>
         <a href="/contacts" class="hdr">Контакти</a>
+        <a href="/aboutUs" class="hdr">Про нас</a>
     </div>
 </header>
 <body>
@@ -19,7 +21,7 @@
     <section class="banner">
         <h1>Ласкаво просимо до нашого магазину!</h1>
         <p>Знайдіть найкращі пропозиції тут</p>
-        <a href="#" class="button">Почати покупки</a>
+        <a href="/shop" class="button">Почати покупки</a>
     </section>
 
     <section class="products">
@@ -29,25 +31,37 @@
                 <img src="https://via.placeholder.com/150" alt="Товар 1">
                 <h3>Товар 1</h3>
                 <p>Ціна: $100</p>
-                <a href="#" class="button">Купити</a>
+                <a href="#" class="buttonProp">Купити</a>
             </div>
             <div class="product-card">
                 <img src="https://via.placeholder.com/150" alt="Товар 2">
                 <h3>Товар 2</h3>
                 <p>Ціна: $200</p>
-                <a href="#" class="button">Купити</a>
+                <a href="/basket" class="buttonProp">Купити</a>
             </div>
             <div class="product-card">
                 <img src="https://via.placeholder.com/150" alt="Товар 3">
                 <h3>Товар 3</h3>
                 <p>Ціна: $300</p>
-                <a href="#" class="button">Купити</a>
+                <a href="/basket" class="buttonProp">Купити</a>
             </div>
             <div class="product-card">
                 <img src="https://via.placeholder.com/150" alt="Товар 4">
                 <h3>Товар 4</h3>
                 <p>Ціна: $400</p>
-                <a href="#" class="button">Купити</a>
+                <a href="#" class="buttonProp">Купити</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Товар 4">
+                <h3>Товар 4</h3>
+                <p>Ціна: $400</p>
+                <a href="/basket" class="buttonProp">Купити</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Товар 4">
+                <h3>Товар 4</h3>
+                <p>Ціна: $400</p>
+                <a href="/basket" class="buttonProp">Купити</a>
             </div>
         </div>
     </section>

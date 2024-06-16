@@ -24,5 +24,34 @@ public class Controller {
     public String basketPage(){
         return "/html/basket";
     }
+    @GetMapping("/portfolioP1")
+    public String portfolioP1(){
+        return "/html/portfolioP1";
+    }
+    @GetMapping("/portfolioP2")
+    public String portfolioP2(){
+        return "/html/portfolioP2";
+    }
+    @GetMapping("/portfolioP3")
+    public String portfolioP3(){
+        return "/html/portfolioP3";
+    }
+    @GetMapping("/portfolioP4")
+    public String portfolioP4(){
+        return "/html/portfolioP4";
+    }
+    @GetMapping("/portfolioP5")
+    public String portfolioP5(){
+        return "/html/portfolioP5";
+    }
+    @GetMapping("/portfolioP6")
+    public String portfolioP6(){
+        return "/html/portfolioP6";
+    }
+    @GetMapping("/portfolioP7")
+    public String portfolioP7(){
+        return "/html/portfolioP7";
+    }
+
 
 }
