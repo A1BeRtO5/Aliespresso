@@ -2,7 +2,7 @@
 
 **Aliespresso** — це вебзастосунок, створений на базі **Java Spring Boot**, який імітує інтернет-магазин кави або товарів, пов’язаних з кавою.
 
-![image](https://github.com/user-attachments/assets/2e5e0a23-d923-4b88-aede-ed1c39f52cae)
+![image](https://github.com/user-attachments/assets/9a4fd062-3874-40a1-8331-b2fe2ac97b53)
 
 ## 🔧 Технології
 
